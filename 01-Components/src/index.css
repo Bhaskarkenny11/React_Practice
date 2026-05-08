@@ -1,0 +1,13 @@
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+.card{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: #860548;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}

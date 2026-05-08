@@ -1,0 +1,132 @@
+html,
+
+body {
+  height: 100%;
+  width: 100%;
+   background-color: #111;
+ 
+}
+/* *{
+  margin: 0px;
+  padding:0px;
+  box-sizing: border-box;
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+ *{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+.parent{
+  display: flex;
+  gap:10px;
+  min-height: 100vh;
+  width:100%;
+  background-color: #111;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.card{
+  height:260px;
+  width: 240px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction:column;
+  gap: 50px;
+}
+
+/* .top{
+  background-color: red;
+} */
+/* .center{
+  background-color: yellowgreen;
+} */
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:40px;
+
+}
+.top img{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid #dadada;
+  padding: 5px;
+  object-fit: cover;
+}
+.top button{
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #dadada;
+  font-size: 10px;
+  padding: 4px 6px;
+  gap:3px;
+  background-color: transparent;
+  color: #656464;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top:1.5px solid #d7d7d7 ;
+  padding-top: 15px 0 0 0;
+}
+
+.center h3{
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0;   /* add this */
+}
+
+.center h3 span{
+  /* color: #8b8b8b; */
+  font-size: 9px;
+  font-weight: 400px;
+
+}
+.center h2{
+  font-size: 22px;
+  margin: 3px 0; 
+}
+.center .tag{
+  display: flex;
+  gap: 5px;
+  margin-top: 2px;
+  border-radius: 5px;
+}
+.center .tag h4{
+  font-size: 8px;
+  background-color: #dadada;
+  color: #111;
+  font-weight:500;
+  padding: 4px 8px;
+  margin: 1px 0;
+  border-radius:5px;
+}
+.bottom button{
+background-color: #4a4a4a;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 5px 8px;
+font-weight: 400;
+}
+.bottom p{
+  margin-top: 1px;
+  margin-left: 6px;
+  color: #b1b1b1;
+  margin-bottom: 0;
+  font-size: 9px;
+}
+.bottom h3{
+margin: 5px;
+font-size: 20px;
+}
+.center span{
+  margin-left: 5px;
+  color: #9b9b9b;
+}
