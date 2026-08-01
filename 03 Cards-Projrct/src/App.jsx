@@ -2,6 +2,7 @@ import Card from "./comppnents/Card";
 import amazon from "./assets/amazon.jpg"
 import fb from "./assets/fb.png"
 import git from "./assets/git.png"
+import netflix from "./assets/netflix.png"
 const App=()=>{
   const jobs = [
   {
@@ -44,12 +45,38 @@ const App=()=>{
     location: "Mumbai, India",
     saved: true,
     applyText: "Apply Now"
+  },
+    {
+    id: 4,
+    company: "Netflix",
+    logo: netflix,
+    posted: "1 week ago",
+    role: "React Developer",
+    type: "Remote",
+    level: "Junior Level",
+    salary: "$80/hr",
+    location: "Mumbai, India",
+    saved: true,
+    applyText: "Apply Now"
+  },
+      {
+    id: 5,
+    company: "TEST",
+    logo: netflix,
+    posted: "1 week ago",
+    role: "TEST Developer",
+    type: "Remote",
+    level: "Junior Level",
+    salary: "$80/hr",
+    location: "Mumbai, India",
+    saved: true,
+    applyText: "Apply Now"
   }
 ];
 return(
     <div className="parent">
       {jobs.map(function(elem,idx){
-        console.log(idx)
+       // console.log(idx)
         return (
           <div key={idx}>
             <Card company= {elem.company} logo={elem.logo} role={elem.role} posted={elem.posted} type={elem.type} level={elem.level} salary={elem.salary} location={elem.location} />
